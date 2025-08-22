@@ -22,15 +22,7 @@ function Validation() {
 
   return (
     <div>
-        <form onSubmit={handleSubmit} >
-            <input 
-            type='email'
-            value={email}
-            onChange={(e)=>(
-                setEmail(e.target.value)
-            )}
-
-        </form>
+        Hello
     </div>
   )
 }
